@@ -91,4 +91,4 @@ def show_text(q1_sales, q2_df):
 
 
 main()
-print('finished script done!')
+print('finished script done!!')
