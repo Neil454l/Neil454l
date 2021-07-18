@@ -90,5 +90,8 @@ def show_text(q1_sales, q2_df):
     st.dataframe(q2_df)
 
 
-main()
+password = st.text_input('Enter Password',
+                         type='password')
+if password == 'firstapp':
+    main()
 print('finished script done!!!')
